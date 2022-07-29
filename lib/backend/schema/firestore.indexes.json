@@ -1,0 +1,256 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "date_en_attente",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "demandeur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bon_en_attente",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "heure",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "demandeur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bon_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "demandeur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "heure",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "demandeur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bon_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "heure",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye_app",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bon_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "heure",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bon_en_attente",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "heure",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye_valideur",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bon_envoye",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date_valideur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nature",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "statut",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "heure",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye_clotureur",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "clotureur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "date_envoye_app",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "demandeur",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
